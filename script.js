@@ -20,6 +20,6 @@ handleButtonClick.addEventListener('click', () => {
         })
         .catch(error => {
             console.error(error);
-            weatherData.innerHTML = 'Error fetching weather data';
+            weatherData.innerHTML = 'Error fetching the weather data';
         });
 });
